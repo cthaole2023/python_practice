@@ -54,7 +54,7 @@ def num_of_vowels(string):
 
 
 """
-given a num >= 2 it will give u that fibonacci number
+given fib of 0 = 0 and fib of 1 = 1. output the fib of any given num 
 """
 def fibonacci(num):
     # base case
