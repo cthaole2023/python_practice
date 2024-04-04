@@ -9,7 +9,7 @@ def find_min(num_list):
     mins = []
     # stores all the minimums
     m = 0
-    # iterates through the list, if you're uncomfortable with a while loop, i can also show a for loop ex as well
+    # iterates through the list, if you're uncomfortable with a while loop, you can do this w/ for loop ex as well
     while m < len(num_list):
     # while there are sublists in the 2d list you havent iterated
         for i in range(len(num_list[m])):
