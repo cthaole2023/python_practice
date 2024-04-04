@@ -89,7 +89,7 @@ def recur_reverse_strings(string):
         # you want start with the last letter in the string when writing the word in reverse. ex: apple -> "write" e 1st
         # len(string) - 1 refers to the last letter in the string
         # the recursive call is here because we're trying to get the new last letter in the string, by chopping off the
-        # letter we already "wrote" down. chopping = string[:len(string) - 1]
+        # letter we already "wrote" down. i'm chopping via slices = string[:len(string) - 1]
         return new_string
 
 
